@@ -1,4 +1,10 @@
 <head>
     <meta charset="utf-8">
+    <link href="{{ site.url }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}css/modern-business.css" rel="stylesheet">
+    <link href="{{ site.url }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    {% if page.css %}
+    	<link rel="stylesheet" href="{{ page.css }}" />
+    {% endif %}
     <title>{{ site.titre }}</title>
 </head>
