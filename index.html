@@ -10,6 +10,7 @@ layout: default
 				<h2>
 					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
+				<span>Posté dans {{ post.categories }}</span>
 			</li>
 		{% endfor %}
 	</ul>
