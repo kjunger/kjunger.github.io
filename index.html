@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
- <main class="container">
+ <!-- <main class="container">
 	{{ site.main }}
 	<ul>
 		{% for post in site.posts %}
@@ -10,8 +10,10 @@ layout: default
 				<h2>
 					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
-				<span>Posté dans {{ post.categories }}</span>
+				<span>Posté dans <a href="{{ post.categories | prepend: site.baseurl }}">{{ post.categories }}</a></span>
 			</li>
 		{% endfor %}
 	</ul>
- </main>
+ </main> -->
+
+{% include home.html %}

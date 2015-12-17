@@ -4,9 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-{% include bootstrap.min.css %}
-{% include font-awesome.min.css %}
-
 /* Global Styles */
 
 html,
