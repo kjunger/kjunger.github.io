@@ -98,40 +98,63 @@
 	</ul>
  </main> -->
 
+<!-- Page Content -->
 <div class="container">
-	<!-- Page Heading/Breadcrumbs -->
+
+    <!-- Page Heading/Breadcrumbs -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Bienvenue sur Kevin Junger !
+            <h1 class="page-header">Contact
             </h1>
         </div>
     </div>
     <!-- /.row -->
-    <!-- Projects Row -->
     <div class="row">
-        
-        	<div class="col-md-4 img-portfolio">
-            	<a href="/boo/2015/11/19/quatrieme-post.html"><img class="img-responsive img-hover" src="http://placehold.it/700x400" alt=""></a>
-            	<h3><a href="/boo/2015/11/19/quatrieme-post.html">Quatrième post</a></h3>
-        	</div>
-        
-        	<div class="col-md-4 img-portfolio">
-            	<a href="/actu/2015/11/19/troisieme-post.html"><img class="img-responsive img-hover" src="http://placehold.it/700x400" alt=""></a>
-            	<h3><a href="/actu/2015/11/19/troisieme-post.html">Troisième post</a></h3>
-        	</div>
-        
-        	<div class="col-md-4 img-portfolio">
-            	<a href="/actu/2015/11/19/second-post.html"><img class="img-responsive img-hover" src="http://placehold.it/700x400" alt=""></a>
-            	<h3><a href="/actu/2015/11/19/second-post.html">Second post</a></h3>
-        	</div>
-        
-        	<div class="col-md-4 img-portfolio">
-            	<a href="/actu/2015/11/19/premier-post.html"><img class="img-responsive img-hover" src="http://placehold.it/700x400" alt=""></a>
-            	<h3><a href="/actu/2015/11/19/premier-post.html">Premier post</a></h3>
-        	</div>
-        
+    	<div class="col-md-4">
+            <h3>Pour me contacter</h3>
+            <p>
+                Quelque part<br>Dans une ville<br>
+            </p>
+            <p><i class="fa fa-phone"></i> 
+                <abbr title="Téléphone">P</abbr>: 0600000000</p>
+            <p><i class="fa fa-envelope-o"></i> 
+                <abbr title="Email">E</abbr>: <a href="mailto:kevin.junger@etu.univ-rouen.fr">baba@baba.fr</a>
+            </p>
+        </div>
+        <div class="col-md-8">
+            <h3>Ecrire un message</h3>
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Nom complet:</label>
+                        <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Téléphone :</label>
+                        <input type="tel" class="form-control" id="phone" required data-validation-required-message="Veuillez entrer votre numéro de téléphone.">
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Email :</label>
+                        <input type="email" class="form-control" id="email" required data-validation-required-message="Veuillez entrer votre adresse email.">
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Message :</label>
+                        <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Veuillez écrire un message." maxlength="999" style="resize:none"></textarea>
+                    </div>
+                </div>
+                <div id="success"></div>
+                <!-- For success/fail messages -->
+                <button type="submit" class="btn btn-primary">Balancer la purée !</button>
+            </form>
+        </div>
     </div>
-    <!-- /.row -->
 
         <!-- Footer -->
 	<footer>
