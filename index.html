@@ -1,0 +1,19 @@
+---
+layout: default
+---
+ <!-- <main class="container">
+	{{ site.main }}
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+				<h2>
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+				<span>Posté dans <a href="{{ post.categories | prepend: site.baseurl }}">{{ post.categories }}</a></span>
+			</li>
+		{% endfor %}
+	</ul>
+ </main> -->
+
+{% include home.html %}
