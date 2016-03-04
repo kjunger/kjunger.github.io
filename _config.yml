@@ -1,19 +1,9 @@
-# Site settings
 title: Kevin Junger
-baseline: "Couteau suisse multimédia (enfin, en quelque sorte), passionné d'automobile et amateur d'animes, de J-RPG et autres japonaiseries."
+baseline: "Couteau suisse multimédia, passionné d'automobile et amateur d'animes, de J-RPG et autres japonaiseries."
 email: kevin.junger@me.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-# User setting
 owner: Kevin Junger
 email:  kevin.junger@me.com
 telephone: 0601729969
 behance: kjunger
 copyright: Kevin Junger
-# Build settings
 markdown: kramdown
